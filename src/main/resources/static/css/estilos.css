@@ -63,3 +63,41 @@
 #tablaResumen tr:nth-child(even) {
     background-color: coral;
 }
+
+.ejemploPadding {
+/* A los 4 lados*/
+    padding: 10px;
+    /*Arriba/Abajo - Izquierda/Derecha*/
+    padding: 10px 20px;
+    /*Arriba - Derecha - Abajo - Izquierda/*/
+    padding: 10px 20px 30px 40px;
+    
+    margin-bottom: 40px;
+}
+
+/*Selectro de elemento*/
+/*p, h1, div{
+    background-color: antiquewhite;
+    
+}*/
+
+/*Selectro descendente*/
+/**div.contenedor p.parrafoVerde {
+    font-size: 50px;
+    
+}*/
+
+a:visited{
+    color: purple;
+    
+}
+
+a:visited{
+    color: greenyellow;
+    transition: 1m;
+}
+
+a:visited{
+    color: black;
+    background: black;
+}
